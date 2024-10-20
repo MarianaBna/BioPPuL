@@ -1,1 +1,101 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&
+family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+rel="stylesheet">
+    <link rel="stylesheet" href="w3.css">
+
+    <style>
+        .w3-theme-c1 {color:#fff ;background-color:#0D1B1E }
+        .w3-theme-c2 {color:#fff ;background-color:#FEFEFE }
+        .w3-theme-c3 {color:#fff ;background-color:#69D3F8 }
+        .w3-theme-c4 {color:#fff ;background-color:#76C248 }
+        .w3-theme-c5 {color:#fff ;background-color:#067BA9 }
+        .w3-hover-theme:hover {color:#FFF !important; background-color:#067BA9 !important}
+.w3-hover-text-theme:hover {color:#067BA9 !important}
+.w3-hover-border-theme:hover {border-color:#067BA9 !important}
+
+nav{font-family: Roboto Condensed 
+}
+h1{font-family: Roboto;}
+
+h1{font-size:4vw;}
+h2{font-size:48px;}
+h3{font-size:36px;}
+h4{font-size:24px;}
+h5{font-size:20px;}
+h6{font-size:18px;}
+
+
+    /* Container for images */
+    .image-container {
+            position: relative; /* This makes it a positioning context for the overlay image */
+            width: 100%; /* Set the width of the image container */
+        }
+
+        /* Background image */
+        .image-container img.background {
+            width: 100%; /* Make the background image fill the container */
+        }
+
+        /* Overlay image */
+        .image-container img.overlay {
+            position: absolute; /* Use absolute positioning to place this image on top */
+            top: 50%; /* Position the overlay image in the middle */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjust the centering */
+            width: 100%; /* Adjust the size of the overlay image */
+        }
+
+        .responsive-button {
+            width: 120%; /* Default width is 100% */
+            padding: 1vw; /* Padding for the button */
+            font-size: 1.5vw; /* Default font size */
+        }
+
+           
+    </style>
+</head>
+<body>
+
+    <header class="w3-container w3-white"> 
+        <nav>
+            <div class= " w3-bar w3-white">
+                <img src="images/Logo Novo BioPPuL.jpg" style="width:20vw" class="w3-bar-item w3-topleft">
+                <div class="w3-right w3-padding-16"><a href="#" class="w3-bar-item w3-hover-theme" style="text-decoration: none;font-size: 1.45vw"><b>ABOUT US</b></a>
+                <a href="#" class="w3-bar-item w3-hover-theme"  style="text-decoration: none;font-size: 1.45vw;"> <b>PEOPLE</b>  </a>
+                <a href="#" class="w3-bar-item w3-hover-theme" style="text-decoration: none;font-size: 1.45vw"><b>PROJECTS</b></a>
+                <a href="#" class="w3-bar-item w3-hover-theme" style="text-decoration: none;font-size: 1.45vw"><b>PUBLICATIONS</b></a>
+                <a href="#" class="w3-bar-item w3-hover-theme" style="text-decoration: none;font-size: 1.45vw"><b>NEWS</b></a>
+                <a href="#" class="w3-bar-item w3-hover-theme" style="text-decoration: none;font-size: 1.45vw"><b>EVENTS</b></a>
+                <a href="#" class="w3-bar-item w3-hover-theme" style="text-decoration: none;font-size: 1.45vw"><b>CONTACT US</b></a></div></div>
+              </div>
+            </div>
+           
+        </nav>
+        <div class="w3-container w3-white">
+        </div>
+        </header>
+
+   <div class="w3-display-container image-container" >
+    <img src="images/biomolecules.png" class="background" >
+    <img src="images/headerwhiteshaddow.png" class="overlay" style="width:100%">
+    <div class="w3-right-align  w3-display-right w3-container w3-margin-right">
+        <h1>Bioproducts’ Production and <br>
+        Purification Lab at the <br>
+        University of Coimbra</h1> </div>
+        <div class="w3-display-bottomright w3-padding-64" style="margin-right: 5%;">
+            <a href=# class="w3-theme-c4 w3-button w3-round-xxlarge w3-hover-blue responsive-button">
+                About us
+            </a>
+   </div>
+  
+</div>
+</body>
+</html>
